@@ -13,6 +13,7 @@
 		8210E7CF1A97C5E700E2DC67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8210E7CE1A97C5E700E2DC67 /* Images.xcassets */; };
 		8210E7D21A97C5E700E2DC67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8210E7D01A97C5E700E2DC67 /* LaunchScreen.xib */; };
 		8210E7DE1A97C5E700E2DC67 /* Tab_Bar_Center_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8210E7DD1A97C5E700E2DC67 /* Tab_Bar_Center_v2Tests.swift */; };
+		8210E7E81A97C6DB00E2DC67 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8210E7E71A97C6DB00E2DC67 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8210E7D71A97C5E700E2DC67 /* Tab Bar Center v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tab Bar Center v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8210E7DC1A97C5E700E2DC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8210E7DD1A97C5E700E2DC67 /* Tab_Bar_Center_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_Bar_Center_v2Tests.swift; sourceTree = "<group>"; };
+		8210E7E71A97C6DB00E2DC67 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				8210E7C71A97C5E700E2DC67 /* AppDelegate.swift */,
 				8210E7C91A97C5E700E2DC67 /* ViewController.swift */,
 				8210E7CB1A97C5E700E2DC67 /* Main.storyboard */,
+				8210E7E71A97C6DB00E2DC67 /* TabBarViewController.swift */,
 				8210E7CE1A97C5E700E2DC67 /* Images.xcassets */,
 				8210E7D01A97C5E700E2DC67 /* LaunchScreen.xib */,
 				8210E7C51A97C5E700E2DC67 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8210E7CA1A97C5E700E2DC67 /* ViewController.swift in Sources */,
+				8210E7E81A97C6DB00E2DC67 /* TabBarViewController.swift in Sources */,
 				8210E7C81A97C5E700E2DC67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
